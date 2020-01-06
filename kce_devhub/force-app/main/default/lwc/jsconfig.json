@@ -2,7 +2,17 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/leaflet": [
+                "../staticresources/leaflet/leaflet.js"
+            ],
+            "c/nouislider": [
+                "../staticresources/nouislider/nouislider.js"
+            ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
+            ]
+        }
     },
     "include": [
         "**/*",
